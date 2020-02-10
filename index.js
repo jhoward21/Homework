@@ -6,11 +6,20 @@ const animal = {
     lion: "James",
     bear: "Boogie",
     tiger: "Donald",
-    moose: "Jack"
+    moose: "Jack",
+    leopard: "Thomas",
+    Sealion: "Drake"
   }
 };
 
-animal.wolf = "dexter";
+let state = "Missouri"
+
+animal.wolf = "Spike";
 animal.occupation = "Croc";
 console.log(animal.others.lion);
+
+
+
+animal.occupation = ['Bird'];
+console.log(animal);
 
